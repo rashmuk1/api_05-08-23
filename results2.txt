@@ -1,0 +1,48 @@
+newman
+
+DataCSV
+
+Iteration 1/5
+
+→ STUDENT/sign-in
+  POST http://ask-qa.portnov.com/api/v1/sign-in [200 OK, 877B, 247ms]
+
+Iteration 2/5
+
+→ STUDENT/sign-in
+  POST http://ask-qa.portnov.com/api/v1/sign-in [200 OK, 876B, 95ms]
+
+Iteration 3/5
+
+→ STUDENT/sign-in
+  POST http://ask-qa.portnov.com/api/v1/sign-in [200 OK, 878B, 92ms]
+
+Iteration 4/5
+
+→ STUDENT/sign-in
+  POST http://ask-qa.portnov.com/api/v1/sign-in [200 OK, 877B, 100ms]
+
+Iteration 5/5
+
+→ STUDENT/sign-in
+  POST http://ask-qa.portnov.com/api/v1/sign-in [200 OK, 877B, 99ms]
+
+┌─────────────────────────┬────────────────────┬───────────────────┐
+│                         │           executed │            failed │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│              iterations │                  5 │                 0 │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│                requests │                  5 │                 0 │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│            test-scripts │                  0 │                 0 │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│      prerequest-scripts │                  0 │                 0 │
+├─────────────────────────┼────────────────────┼───────────────────┤
+│              assertions │                  0 │                 0 │
+├─────────────────────────┴────────────────────┴───────────────────┤
+│ total run duration: 726ms                                        │
+├──────────────────────────────────────────────────────────────────┤
+│ total data received: 1.78kB (approx)                             │
+├──────────────────────────────────────────────────────────────────┤
+│ average response time: 126ms [min: 92ms, max: 247ms, s.d.: 60ms] │
+└──────────────────────────────────────────────────────────────────┘
